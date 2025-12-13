@@ -21,14 +21,14 @@ const NetherlandsFlag = (props: React.SVGProps<SVGSVGElement>) => (
 // --- Data Mata Uang ---
 const currencies = {
     USD: { symbol: '$', name: 'US Dollar', rate: 1 },
-    INR: { symbol: '₹', name: 'Indian Rupee', rate: 83.5 },
-    EUR: { symbol: '€', name: 'Euro', rate: 0.92 },
+    INR: { symbol: '₹', name: 'Indian Rupee', rate: 90.55 },
+    EUR: { symbol: '€', name: 'Euro', rate: 1.17 },
 };
 
 // --- DATA VPS LENGKAP UNTUK SEMUA KOMBINASI ---
 const vpsPlans = [
     // USA - Ampere
-    { id: 1, name: 'USA-AMP-08GB', location: 'USA', cpuType: 'Ampere', cores: 8, ram: 8, ssd: 256, priceUSD: 40.99 },
+    { id: 1, name: 'USA-AMD-08GB', location: 'USA', cpuType: 'Ampere', cores: 8, ram: 8, ssd: 256, priceUSD: 40.99 },
     { id: 2, name: 'USA-AMP-16GB', location: 'USA', cpuType: 'Ampere', cores: 10, ram: 16, ssd: 512, priceUSD: 80.99 },
     { id: 3, name: 'USA-AMP-24GB', location: 'USA', cpuType: 'Ampere', cores: 12, ram: 24, ssd: 768, priceUSD: 120.99 },
     // USA - Intel
