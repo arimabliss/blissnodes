@@ -82,7 +82,7 @@ const vpsPlans = [
     ssd: 700,
     priceUSD: 1699
   }
-];
+]
 
 const operatingSystems = [
     { name: 'Ubuntu', logo: ubuntuLogo }, { name: 'Windows', logo: windowsLogo }, { name: 'Fedora', logo: fedoraLogo },
