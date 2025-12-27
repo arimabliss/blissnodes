@@ -23,19 +23,21 @@ const currencies = {
 // PERUBAHAN: Menambahkan harga dalam USD untuk kalkulasi
 const gamePlans = [
     // USA - Ampere
-    { id: 1, name: 'GRASS PLAN', location: 'USA', planType: 'Ampere', ram: 2, cpu: 100, ssd: 15, priceUSD: 0.90 },
-    { id: 2, name: 'PLANK PLAN', location: 'USA', planType: 'Ampere', ram: 4, cpu: 200, ssd: 20, priceUSD: 1.20 },
-    { id: 3, name: 'STONE PLAN', location: 'USA', planType: 'Ampere', ram: 6, cpu: 250, ssd: 24, priceUSD: 1.50 },
+    { id: 1, name: 'ryzen-GRASS PLAN', location: 'USA', planType: 'Ampere', ram: 2, cpu: 100, ssd: 15, priceUSD: 0.90 },
+    { id: 2, name: 'ryzen-PLANK PLAN', location: 'USA', planType: 'Ampere', ram: 4, cpu: 200, ssd: 20, priceUSD: 1.20 },
+    { id: 3, name: 'ryzen-STONE PLAN', location: 'USA', planType: 'Ampere', ram: 6, cpu: 250, ssd: 24, priceUSD: 1.50 },
     // USA - Intel
-    { id: 4, name: 'IRON PLAN', location: 'USA', planType: 'Ampere', ram: 8, cpu: 250, ssd: 32, priceUSD: 3 },
-    { id: 5, name: 'GOLD PLAN', location: 'USA', planType: 'Ampere', ram: 10, cpu: 300, ssd: 48, priceUSD: 2.50 },
-    { id: 6, name: 'DIAMOND PLAN', location: 'USA', planType: 'Ampere', ram: 12, cpu: 350, ssd: 70, priceUSD: 3 },
-    // Netherlands - Ampere
-    { id: 7, name: 'WOOD PLAN', location: 'Netherlands', planType: 'Ampere', ram: 2, cpu: 100, ssd: 20, priceUSD: 14.99 },
-    { id: 8, name: 'COBBLE PLAN', location: 'Netherlands', planType: 'Ampere', ram: 4, cpu: 150, ssd: 20, priceUSD: 29.99 },
-    // Netherlands - Intel
-    { id: 9, name: 'OBSIDIAN PLAN', location: 'Netherlands', planType: 'Intel', ram: 8, cpu: 250, ssd: 40, priceUSD: 59.99 },
-    { id: 10, name: 'EMERALD PLAN', location: 'Netherlands', planType: 'Intel', ram: 12, cpu: 350, ssd: 60, priceUSD: 92.99 },
+    { id: 4, name: 'ryzen-IRON PLAN', location: 'USA', planType: 'Ampere', ram: 8, cpu: 250, ssd: 32, priceUSD: 3 },
+    { id: 5, name: 'ryzen-GOLD PLAN', location: 'USA', planType: 'Ampere', ram: 10, cpu: 300, ssd: 48, priceUSD: 2.50 },
+    { id: 6, name: 'ryzen-DIAMOND PLAN', location: 'USA', planType: 'Ampere', ram: 12, cpu: 350, ssd: 70, priceUSD: 3 },
+    
+    { id: 7, name: 'AMD-GRASS PLAN', location: 'USA', planType: 'Intel', ram: 2, cpu: 100, ssd: 15, priceUSD: 0.80 },
+    { id: 8, name: 'AMD-PLANK PLAN', location: 'USA', planType: 'Intel', ram: 4, cpu: 200, ssd: 20, priceUSD: 1.00 },
+    { id: 9, name: 'AMD-STONE PLAN', location: 'USA', planType: 'Intel', ram: 6, cpu: 250, ssd: 24, priceUSD: 1.20 },
+    // USA - Intel
+    { id: 10, name: 'AMD-IRON PLAN', location: 'USA', planType: 'Intel', ram: 8, cpu: 250, ssd: 32, priceUSD: 1.80 },
+    { id: 11, name: 'AMD-GOLD PLAN', location: 'USA', planType: 'Intel', ram: 10, cpu: 300, ssd: 48, priceUSD: 2.30 },
+    { id: 12, name: 'AMD-DIAMOND PLAN', location: 'USA', planType: 'Intel', ram: 12, cpu: 350, ssd: 70, priceUSD: 2.90 },
 ];
 
 const MinecraftPricing = () => {
