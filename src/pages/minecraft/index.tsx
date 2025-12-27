@@ -23,13 +23,13 @@ const currencies = {
 // PERUBAHAN: Menambahkan harga dalam USD untuk kalkulasi
 const gamePlans = [
     // USA - Ampere
-    { id: 1, name: 'GRASS PLAN', location: 'USA', planType: 'Ampere', ram: 2, cpu: 100, ssd: 16, priceUSD: 13.99 },
-    { id: 2, name: 'PLANK PLAN', location: 'USA', planType: 'Ampere', ram: 4, cpu: 150, ssd: 16, priceUSD: 27.99 },
-    { id: 3, name: 'STONE PLAN', location: 'USA', planType: 'Ampere', ram: 6, cpu: 200, ssd: 24, priceUSD: 41.99 },
+    { id: 1, name: 'GRASS PLAN', location: 'USA', planType: 'Ampere', ram: 2, cpu: 100, ssd: 15, priceUSD: 0.90 },
+    { id: 2, name: 'PLANK PLAN', location: 'USA', planType: 'Ampere', ram: 4, cpu: 200, ssd: 20, priceUSD: 1.20 },
+    { id: 3, name: 'STONE PLAN', location: 'USA', planType: 'Ampere', ram: 6, cpu: 250, ssd: 24, priceUSD: 1.50 },
     // USA - Intel
-    { id: 4, name: 'IRON PLAN', location: 'USA', planType: 'Intel', ram: 8, cpu: 250, ssd: 32, priceUSD: 55.99 },
-    { id: 5, name: 'GOLD PLAN', location: 'USA', planType: 'Intel', ram: 10, cpu: 300, ssd: 48, priceUSD: 66.99 },
-    { id: 6, name: 'DIAMOND PLAN', location: 'USA', planType: 'Intel', ram: 12, cpu: 350, ssd: 48, priceUSD: 88.99 },
+    { id: 4, name: 'IRON PLAN', location: 'USA', planType: 'Ampere', ram: 8, cpu: 250, ssd: 32, priceUSD: 3 },
+    { id: 5, name: 'GOLD PLAN', location: 'USA', planType: 'Ampere', ram: 10, cpu: 300, ssd: 48, priceUSD: 2.50 },
+    { id: 6, name: 'DIAMOND PLAN', location: 'USA', planType: 'Ampere', ram: 12, cpu: 350, ssd: 70, priceUSD: 3 },
     // Netherlands - Ampere
     { id: 7, name: 'WOOD PLAN', location: 'Netherlands', planType: 'Ampere', ram: 2, cpu: 100, ssd: 20, priceUSD: 14.99 },
     { id: 8, name: 'COBBLE PLAN', location: 'Netherlands', planType: 'Ampere', ram: 4, cpu: 150, ssd: 20, priceUSD: 29.99 },
