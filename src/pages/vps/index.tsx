@@ -28,26 +28,60 @@ const currencies = {
 // --- DATA VPS LENGKAP UNTUK SEMUA KOMBINASI ---
 const vpsPlans = [
     // USA - Ampere
-    { id: 1, name: 'USA-AMD-08GB', location: 'USA', cpuType: 'Ampere', cores: 8, ram: 8, ssd: 256, priceUSD: 40.99 },
-    { id: 2, name: 'USA-AMP-16GB', location: 'USA', cpuType: 'Ampere', cores: 10, ram: 16, ssd: 512, priceUSD: 80.99 },
-    { id: 3, name: 'USA-AMP-24GB', location: 'USA', cpuType: 'Ampere', cores: 12, ram: 24, ssd: 768, priceUSD: 120.99 },
-    // USA - Intel
-    { id: 4, name: 'USA-INT-08GB', location: 'USA', cpuType: 'Intel', cores: 6, ram: 8, ssd: 300, priceUSD: 45.99 },
-    { id: 5, name: 'USA-INT-16GB', location: 'USA', cpuType: 'Intel', cores: 8, ram: 16, ssd: 600, priceUSD: 90.99 },
-    // USA - AMD
-    { id: 6, name: 'USA-AMD-08GB', location: 'USA', cpuType: 'AMD', cores: 8, ram: 8, ssd: 256, priceUSD: 42.99 },
-    { id: 7, name: 'USA-AMD-16GB', location: 'USA', cpuType: 'AMD', cores: 12, ram: 16, ssd: 512, priceUSD: 85.99 },
-    // Netherlands - Ampere
-    { id: 8, name: 'NL-AMP-08GB', location: 'Netherlands', cpuType: 'Ampere', cores: 8, ram: 8, ssd: 256, priceUSD: 43.99 },
-    { id: 9, name: 'NL-AMP-16GB', location: 'Netherlands', cpuType: 'Ampere', cores: 10, ram: 16, ssd: 512, priceUSD: 86.99 },
-    // Netherlands - Intel
-    { id: 10, name: 'NL-INT-08GB', location: 'Netherlands', cpuType: 'Intel', cores: 6, ram: 8, ssd: 300, priceUSD: 48.99 },
-    { id: 11, name: 'NL-INT-16GB', location: 'Netherlands', cpuType: 'Intel', cores: 8, ram: 16, ssd: 600, priceUSD: 97.99 },
-    { id: 12, name: 'NL-INT-32GB', location: 'Netherlands', cpuType: 'Intel', cores: 12, ram: 32, ssd: 1200, priceUSD: 195.99 },
-    // Netherlands - AMD
-    { id: 13, name: 'NL-AMD-08GB', location: 'Netherlands', cpuType: 'AMD', cores: 8, ram: 8, ssd: 256, priceUSD: 46.99 },
-    { id: 14, name: 'NL-AMD-16GB', location: 'Netherlands', cpuType: 'AMD', cores: 12, ram: 16, ssd: 512, priceUSD: 93.99 },
-    { id: 15, name: 'NL-AMD-32GB', location: 'Netherlands', cpuType: 'AMD', cores: 16, ram: 32, ssd: 1024, priceUSD: 187.99 },
+    [
+  // Free VPS (Invite Reward)
+  {
+    id: 1,
+    name: 'FREE-VPS-08GB',
+    location: 'India',
+    cpuType: 'Generic',
+    cores: 12,
+    ram: 8,
+    ssd: 48,
+    priceUSD: 0
+  },
+
+  // Budget VPS Plans
+  {
+    id: 2,
+    name: 'BUDGET-VPS-04GB',
+    location: 'India',
+    cpuType: 'Generic',
+    cores: 3,
+    ram: 4,
+    ssd: 80,
+    priceUSD: 390
+  },
+  {
+    id: 3,
+    name: 'BUDGET-VPS-16GB',
+    location: 'India',
+    cpuType: 'Generic',
+    cores: 4,
+    ram: 16,
+    ssd: 120,
+    priceUSD: 790
+  },
+  {
+    id: 4,
+    name: 'BUDGET-VPS-32GB',
+    location: 'India',
+    cpuType: 'Generic',
+    cores: 6,
+    ram: 32,
+    ssd: 399,
+    priceUSD: 1125
+  },
+  {
+    id: 5,
+    name: 'BUDGET-VPS-64GB',
+    location: 'India',
+    cpuType: 'Generic',
+    cores: 8,
+    ram: 64,
+    ssd: 700,
+    priceUSD: 1699
+  }
 ];
 
 const operatingSystems = [
