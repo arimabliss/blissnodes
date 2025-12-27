@@ -27,62 +27,13 @@ const currencies = {
 
 // --- DATA VPS LENGKAP UNTUK SEMUA KOMBINASI ---
 const vpsPlans = [
-    // USA - Ampere
-    [
-  // Free VPS (Invite Reward)
-  {
-    id: 1,
-    name: 'FREE-VPS-08GB',
-    location: 'India',
-    cpuType: 'Generic',
-    cores: 12,
-    ram: 8,
-    ssd: 48,
-    priceUSD: 0
-  },
+  { id: 1, name: 'FREE-VPS-08GB', location: 'India', cpuType: 'Generic', cores: 12, ram: 8, ssd: 48, priceUSD: 0 },
 
-  // Budget VPS Plans
-  {
-    id: 2,
-    name: 'BUDGET-VPS-04GB',
-    location: 'India',
-    cpuType: 'Generic',
-    cores: 3,
-    ram: 4,
-    ssd: 80,
-    priceUSD: 390
-  },
-  {
-    id: 3,
-    name: 'BUDGET-VPS-16GB',
-    location: 'India',
-    cpuType: 'Generic',
-    cores: 4,
-    ram: 16,
-    ssd: 120,
-    priceUSD: 790
-  },
-  {
-    id: 4,
-    name: 'BUDGET-VPS-32GB',
-    location: 'India',
-    cpuType: 'Generic',
-    cores: 6,
-    ram: 32,
-    ssd: 399,
-    priceUSD: 1125
-  },
-  {
-    id: 5,
-    name: 'BUDGET-VPS-64GB',
-    location: 'India',
-    cpuType: 'Generic',
-    cores: 8,
-    ram: 64,
-    ssd: 700,
-    priceUSD: 1699
-  }
-]
+  { id: 2, name: 'BUDGET-VPS-04GB', location: 'India', cpuType: 'Generic', cores: 3, ram: 4, ssd: 80, priceUSD: 4.70 },
+  { id: 3, name: 'BUDGET-VPS-16GB', location: 'India', cpuType: 'Generic', cores: 4, ram: 16, ssd: 120, priceUSD: 9.52 },
+  { id: 4, name: 'BUDGET-VPS-32GB', location: 'India', cpuType: 'Generic', cores: 6, ram: 32, ssd: 399, priceUSD: 13.55 },
+  { id: 5, name: 'BUDGET-VPS-64GB', location: 'India', cpuType: 'Generic', cores: 8, ram: 64, ssd: 700, priceUSD: 20.47 }
+];
 
 const operatingSystems = [
     { name: 'Ubuntu', logo: ubuntuLogo }, { name: 'Windows', logo: windowsLogo }, { name: 'Fedora', logo: fedoraLogo },
