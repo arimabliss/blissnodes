@@ -15,7 +15,7 @@ const discordPlans = [
   {
     name: 'Lite Plan',
     type: 'Discord Bot',
-    priceUSD: 0.42,
+    priceUSD: 0.20,
     cpu: '100% CPU',
     ram: '512 MB',
     storage: '2 GB',
@@ -27,7 +27,7 @@ const discordPlans = [
   {
     name: 'Plus Plan',
     type: 'Discord Bot',
-    priceUSD: 0.84,
+    priceUSD: 0.40,
     cpu: '100% CPU',
     ram: '1 GB',
     storage: '5 GB',
@@ -39,7 +39,7 @@ const discordPlans = [
   {
     name: 'Pro Plan',
     type: 'Discord Bot',
-    priceUSD: 1.68,
+    priceUSD: 1.00,
     cpu: '100% CPU',
     ram: '2 GB',
     storage: '15 GB',
@@ -51,7 +51,7 @@ const discordPlans = [
   {
     name: 'Ultra Plan',
     type: 'Discord Bot',
-    priceUSD: 3.35,
+    priceUSD: 1.12,
     cpu: '150% CPU',
     ram: '4 GB',
     storage: '20 GB',
@@ -63,7 +63,7 @@ const discordPlans = [
   {
     name: 'Elite Plan',
     type: 'Discord Bot',
-    priceUSD: 5.02,
+    priceUSD: 2,
     cpu: '200% CPU',
     ram: '6 GB',
     storage: '30 GB',
@@ -75,7 +75,7 @@ const discordPlans = [
   {
     name: 'LavaLink: V4',
     type: 'Discord Bot',
-    priceUSD: 0.96,
+    priceUSD: 1,
     cpu: '100% CPU',
     ram: '2 GB',
     storage: '5 GB',
